@@ -1,0 +1,4 @@
+2019-05-23 15:44:57,322 logDemo.py root line:43 INFO 信息级日志
+2019-05-23 15:44:57,323 logDemo.py root line:44 WARNING 警告级日志
+2019-05-23 15:44:57,324 logDemo.py root line:45 ERROR 错误级日志
+2019-05-23 15:44:57,324 logDemo.py root line:46 CRITICAL 严重级日志
