@@ -8,10 +8,11 @@ class RedisClient:
     def __init__(self):
         """
         初始化
-        """
-        self.host = "192.168.2.196"
-        self.port = 6379
-        self.redis = redis.Redis(host=self.host, port=self.port, decode_responses=True)
+        """     
+        self.host = "139.198.13.12"
+        self.port = 4125
+        self.password="uuid845tylabc123"
+        self.redis = redis.Redis(host=self.host, port=self.port, decode_responses=True, password=self.password)
 
     def getRedis(self):
         return self.redis
